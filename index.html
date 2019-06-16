@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GH</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand">Ghrairi Haithem</h1>
+    <div class="wrapper ">
+      <div class="company-info">
+        <img src="images/profile.png" alt="" width="80%">
+        <h3><center>Ghrairi Haithem</center></h3>
+        <h4>Ingenieur Informatique</h4>
+        <p>Contactez moi sur:</p>
+        <a href="https://www.facebook.com/haithem.ghrairi"> <i class="fab fa-facebook-square"></i> </a>
+        <a href="#" class="icon-block"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="icon-block"><i class="fas fa-envelope"></i></a>
+        <a href="#" class="icon-block"><i class="fab fa-instagram"></i></a>
+        <a href="ghrairi.tn" class="icon-block"><i class="fab fa-goodreads"></i></a>
+      </div>
+
+      <div class="contact">
+        <h3>Envoyez-moi votre Message</h3>
+        <div class="alert" id="alert">Merci pour vos commentaires, cher ami!</div>
+        <form id="contactForm">
+          <div>
+            <label>Nom</label>
+            <input type="text" name="name" id="name">
+          </div>
+          <div>
+            <label>Prenom</label>
+            <input type="text" name="name" id="prenom">
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" name="name" id="email">
+          </div>
+          <div>
+            <label>Tél</label>
+            <input type="tel" name="name" id="tel">
+          </div>
+          <!--div>
+            <label>Track</label>
+            <select name="track" id="track">
+              <option value="ai">AI</option>
+              <option value="web">Web</option>
+              <option value="game">Game</option>
+            </select>
+          </div-->
+          <div class="full">
+            <label>Sujet</label>
+            <input type="text" name="slide" required="true" id="sujet" >
+          </div>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="5" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+        <button>test </button>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-database.js"></script>
+<script src="js/main.js"></script>
+</html>
